@@ -1,6 +1,8 @@
 ## load the data.table and lubridate packages
 library( data.table)
 library( lubridate)
+library( dplyr)
+library( readr)
 
 ##read the csv file 
 dt <- read.csv("household_power_consumption.txt", header = TRUE, sep = ";", na.strings = "?" , stringsAsFactors = FALSE, comment.char = "", quote = '\"')
