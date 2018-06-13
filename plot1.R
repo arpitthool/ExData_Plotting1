@@ -1,4 +1,6 @@
 ## load the data.table and lubridate packages
+library( dplyr)
+library( readr)
 library( data.table)
 library( lubridate)
 
